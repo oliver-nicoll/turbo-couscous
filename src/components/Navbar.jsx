@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../images/White And Black Minimalist Gym Logo.png'
+import Logo from '../images/Logo.png'
 import {links} from '../data';
 import {GoThreeBars} from 'react-icons/go'
 import './navbar.css';
