@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/White And Black Minimalist Gym Logo.png'
 import {links} from '../data';
+import {GoThreeBars} from 'react-icons/go'
 import './navbar.css';
 
 
@@ -23,7 +24,9 @@ const Navbar = () => {
                     } )
                 }
             </ul>
-            nav buttons
+            <button className="nav__toggle-btn">
+                <GoThreeBars />
+            </button>
         </div>
     </nav>
   )
