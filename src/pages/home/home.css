@@ -16,7 +16,7 @@
 }
 
 .main__header-left {
-    margin-top: 6rem;
+    margin-top: -3rem;
 }
 
 .main__header-left h4 {
@@ -31,5 +31,24 @@
 }
 
 .main__header-right {
-
+    display: grid;
+    place-items: center;
+    position: relative;
 }
+
+.main__header-shape {
+    width: 50rem;
+    height: 90rem;
+    background: linear-gradient(40deg, var(--color-secondary), transparent);
+    border-radius: 40%;
+    position: absolute;
+    filter: blur(15px);
+}
+
+.main__header-image {
+    position: relative;
+}
+
+/* .main__header-container:hover .main__header-shape {
+    filter: blur(20px);
+} */

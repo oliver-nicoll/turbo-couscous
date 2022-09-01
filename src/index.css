@@ -19,9 +19,9 @@
     */
     --primary-hue: 262;
     --gray-hue: 240;
-    --color-primary: hsl(var(--primary-hue), 50%, 70%);
+    --color-primary: hsl(var(--primary-hue), 90%, 25%);
     --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-    --color-secondary: #ffb116;
+    --color-secondary: #000000;
     --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
     --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
     --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
@@ -39,7 +39,7 @@
 /* GENERAL STYLES */
 body {
     font-family: 'Montserrat', sans-serif;
-    color: var(--color-gray-200);
+    color: var(--color-gray-500);
     line-height: 1.7;
     overflow-x: hidden;
     background-color: var(--color-gray-300);
@@ -66,11 +66,42 @@ h2 {
 }
 
 a {
-    color: var(--color-gray-100);
+    color: var(--color-gray-400);
 }
  
 img {
     display: block;
     object-fit: cover;
     width: 100%;
+}
+
+
+.btn {
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-secondary);
+    color: var(--color-gray-100);
+}
+
+.btn.lg {
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+btn.sm {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+
+btn.sm:hover {
+    background: var(--color-gray-100-);
 }

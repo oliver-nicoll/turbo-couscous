@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Image from '../images/avatar3.jpg'
+import Image from '../images/avatar4.jpg'
 
 const MainHeader = () => {
   return (
@@ -13,10 +13,10 @@ const MainHeader = () => {
             reprehenderit temporibus odit non quidem debitis corrupti soluta placeat eos, possimus porro aliquam voluptatibus
             minus repudiandae cupiditate consequuntur tenetur ratione.
           </p>
-          <Link to="/plans" className='btn lg'>Get Started</Link>
+          <Link to="/plans" className="btn lg">Get Started</Link>
         </div>
         <div className="main__header-right">
-          <div className="main__header-circle"></div>
+          <div className="main__header-shape"></div>
           <div className="main__header-image">
             <img src={Image} alt='Main Header' />
           </div>
