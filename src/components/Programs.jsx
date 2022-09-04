@@ -1,6 +1,9 @@
 import {FaCrown} from 'react-icons/fa'
 import SectionHead from './SectionHead'
 import {programs} from '../data'
+import Card from '../UI /Card'
+import {Link} from 'react-router-dom'
+import {AiFillCaretRight} from 'react-icons/ai'
 
 const Programs = () => {
   return (
@@ -11,7 +14,14 @@ const Programs = () => {
         <div className="programs__wrapper">
             {
                 programs.map(({id, icon, title, info, path}) => {
-                    return <h4> Hi </h4>
+                    return (
+                        <Card className="programs__program" key={id}>
+                            <span>{icon}</span>
+                            <h4>{title}</h4>
+                            <small>{info}</small>
+                            <Link to={path} className="btn sm">Learn More <AiFillCaretRight/></Link>
+                        </Card>
+                    )
                 })
             }
         </div>
