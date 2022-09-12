@@ -174,3 +174,30 @@ section {
     font-weight: 300;
     padding: .5rem;
 }
+
+
+/* ====================MEDIA QUERIES - MED SCREEN ==================*/
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+
+    }
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* ====================MEDIA QUERIES - SM SCREEN ==================*/
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
