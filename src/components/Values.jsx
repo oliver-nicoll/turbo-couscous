@@ -2,7 +2,7 @@ import Image from '../images/trainer6.jpg'
 import SectionHead from './SectionHead'
 import {GiCutDiamond} from 'react-icons/gi'
 import { values } from '../data'
-import Card from '../UI /Card'
+import Card from '../UI/Card'
 
 const Values = () => {
   return (
