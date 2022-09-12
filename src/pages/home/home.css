@@ -229,12 +229,12 @@ footer {
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;
-    color: var(--color-gray-400);
+    color: var(--color-secondary);
 }
 
 .footer__container {
     display: grid;
-    grid-template-columns: 26rem 1fr 1fr 1fr 1fr;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
     gap: 6rem;
 }
 
@@ -244,15 +244,18 @@ footer {
     align-items: flex-start;
     gap: 0.7rem;
     margin-bottom: 1rem;
+
 }
 
-.footer__container article p {
+/* .footer__container article p {
     margin-top: 0.5rem;
-}
+} */
 
 .footer__container article h4 {
     margin-bottom: 0.6rem;
     font-size: 1rem;
+    color: var(--color-gray-300);
+
 }
 
 .footer__socials {
@@ -282,7 +285,7 @@ footer {
 }
 
 .footer__copyright {
-    color: var(--color-gray-400);
+    color: var(--color-gray-600);
     text-align: center;
     padding: 1.5rem 0;
     border-top: 2px solid var(--color-gray-300);

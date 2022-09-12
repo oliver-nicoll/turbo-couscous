@@ -35,14 +35,6 @@ const Footer = () => {
                 <Link to="/contact">Contact</Link>
             </article>
             <article>
-                <h4>Permalinks</h4>
-                <Link to="/about">About</Link>
-                <Link to="/plans">Plans</Link>
-                <Link to="/trainers">Trainers</Link>
-                <Link to="/gallery">Gallery</Link>
-                <Link to="/contact">Contact</Link>
-            </article>
-            <article>
                 <h4>Insights</h4>
                 <Link to="/s">Blog</Link>
                 <Link to="/s">Case Studies</Link>
