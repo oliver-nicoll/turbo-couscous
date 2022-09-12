@@ -24,6 +24,7 @@ nav {
 .logo {
     width: 14rem;
     padding-right: 2rem;
+    display: block;
 }
 
 .nav__links {
