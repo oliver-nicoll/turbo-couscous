@@ -8,6 +8,7 @@ import NotFound from './pages/notFound/notFound';
 import Plans from './pages/plans/plans';
 import Trainers from './pages/trainers/trainers';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='plans' element={<Plans />} />
         <Route path='trainers' element={<Trainers />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
 
   )
