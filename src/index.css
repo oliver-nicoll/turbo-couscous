@@ -97,12 +97,12 @@ img {
     font-size: 1.1rem;
 }
 
-btn.sm {
+.btn.sm {
     padding: 0.4rem 1.2rem;
     font-size: 0.9rem;
 }
 
-btn.sm:hover {
+.btn.sm:hover {
     background: var(--color-gray-100-);
 }
 
