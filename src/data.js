@@ -2,7 +2,7 @@ import {SiOpenaigym} from 'react-icons/si'
 
 
 
-export const links = [
+export const navLinks = [
     {
         name: "Home",
         path: '/'

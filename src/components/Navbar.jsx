@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/Logo.png'
-import {links} from '../data';
+import {navLinks} from '../data';
 import {GoThreeBars} from 'react-icons/go'
 import {MdOutlineClose} from 'react-icons/md'
 import './navbar.css';
@@ -18,20 +18,20 @@ const Navbar = () => {
             </Link>
             <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav' }`}>
                 {
-                    links.map(({name, path}, index) => {
+                    navLinks.map(({name, path}, index) => {
                         return (
                             <li key={index}> 
-                                <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''} onClick={() => setIsNavShowing(prev => !prev)}>
-                                    {name}
-                                </NavLink>
+                                <NavLink to={path} className={({isActive}) => isActive ? 
+                                'active-nav' : ''} onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                             </li>
                         )
                     } )
                 }
             </ul>
-            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev )}>
+            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
                 {
-                    isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}
+                    isNavShowing ? <MdOutlineClose /> : <GoThreeBars />
+                }
             </button>
         </div>
     </nav>
