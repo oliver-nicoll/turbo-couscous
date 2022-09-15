@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/avatar1.jpg'
 import StoryImage from '../../images/3.png'
-import VisionImage from '../../images/groupgirls2.jpg'
+import VisionImage from '../../images/class2.jpg'
 import MissionImage from '../../images/groupgirls3.jpg'
 import './about.css'
 
@@ -63,10 +63,7 @@ const about = () => {
             Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Illo, saepe.
             Lorem ipsum, dolor sit amet consectetur 
-            adipisicing elit. Illo in eos, quia dolores 
-            quo assumenda maiores ab doloremque quod porro, 
-            totam quasi magni! Eligendi quos aliquam 
-            inventore adipisci necessitatibus temporibus.
+            adipisicing elit.
           </p>
         </div>
         <div className="about__section-image">
